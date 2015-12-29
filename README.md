@@ -32,16 +32,15 @@ here are some quick steps
 
  Clone devstack:
  
- $git clone https://git.openstack.org/openstack-dev/devstack
+ $ git clone https://git.openstack.org/openstack-dev/devstack
  
  Clone devstack-cinder-backup
 
+$ git clone https://github.com/poornimakshirsagar/devstack-cinder-backup/blob/master/local.conf
 
 Copy the local.conf from to devstack
 
 $ cp local.conf devstack/
 
 Deploy your Devstack by running stack.sh
-
 $cd devstack && ./stack.sh
-
